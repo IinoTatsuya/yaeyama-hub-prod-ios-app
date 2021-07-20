@@ -1,0 +1,79 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateMessage {
+  onCreateMessage {
+    id
+    username
+    content
+    created
+    imageBool
+    imageIndex
+    imageURL
+    opponentId
+    opponentName
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateMessage {
+  onUpdateMessage {
+    id
+    username
+    content
+    created
+    imageBool
+    imageIndex
+    imageURL
+    opponentId
+    opponentName
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteMessage {
+  onDeleteMessage {
+    id
+    username
+    content
+    created
+    imageBool
+    imageIndex
+    imageURL
+    opponentId
+    opponentName
+    createdAt
+    updatedAt
+  }
+}
+subscription OnCreateTimeline {
+  onCreateTimeline {
+    id
+    description
+    created
+    imageBool
+    imageURL
+    createdAt
+    updatedAt
+  }
+}
+subscription OnUpdateTimeline {
+  onUpdateTimeline {
+    id
+    description
+    created
+    imageBool
+    imageURL
+    createdAt
+    updatedAt
+  }
+}
+subscription OnDeleteTimeline {
+  onDeleteTimeline {
+    id
+    description
+    created
+    imageBool
+    imageURL
+    createdAt
+    updatedAt
+  }
+}

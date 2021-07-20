@@ -1,0 +1,6 @@
+framework module Pods_yaeyamaHUB {
+  umbrella header "Pods-yaeyamaHUB-umbrella.h"
+
+  export *
+  module * { export * }
+}

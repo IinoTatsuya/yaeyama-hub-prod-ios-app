@@ -1,0 +1,228 @@
+/* 
+  Localizable.strings
+  yaeyamaHUB
+
+  Created by 飯野 竜矢 on 2021/06/18.
+  
+*/
+
+
+"test" = "Test";
+
+// global
+"sevicename" = "アッテヤ"; // Constants
+
+"input.notEntered" = "未入力"; // RegistrationPersonalViewController
+"input.backend.notEntered" = "未設定";
+"global.yes" = "はい";
+"global.no" = "いいえ";
+"global.return" = "戻る";
+"global.cancel" = "キャンセル"; // SettingsViewController
+"global.update" = "Upload"; // ImageCaptureEditorViewController
+"global.passwordrule" = "１つ以上の数字を含む8文字以上英数字を指定してください";
+"global.forgotpassword" = "パスワードを忘れた方はこちら";
+"global.honorific" = "%@ さん";
+"global.unreachable" = "！ ネットワークに接続されていません";// "Network Unreachable has occured";
+"global.unreachable.message" = "現在ネットワークに接続されていません\n接続状況をご確認ください。";// "Network Unreachable has occured";
+"global.update.success" = "データが更新されました";
+
+"global.url.privacipolicy" = "https://atteyaa.com/policies/privacy_policy.html";
+"global.url.terms" = "https://atteyaa.com/policies/terms.html";
+
+
+"atteyaa_dot_money.message.title" = "ドットマネーエラー";
+"atteyaa_dot_money.message.pointshortage" = "ドットマネー最低交換ポイント(300AP)が貯まっていません";
+"atteyaa_dot_money.message.illegaluserchallenged" = "アッテヤユーザではないユーザが検知されました";
+// tabItems
+"tabitems.label.timeline"           = "タイムライン"; // HomeTabController
+"tabitems.label.chat"           = "トーク"; // HomeTabController
+"tabitems.label.search"         = "検索"; // HomeTabController
+"tabitems.label.settings"       = "設定"; // HomeTabController
+
+
+// Navigation
+"navigation.title.label.home"           = ""; // ContentView
+"navigation.title.label.invitation"     = "参加予定"; // ContentView
+"navigation.title.label.join"           = "招待"; // ContentView
+"navigation.title.label.search"         = "検索"; // ContentView
+"navigation.title.label.settings"       = "設定"; // ContentView
+
+
+// registration table
+"tablecell.registration.none"        = ""; // tableview マージン用
+"tablecell.registration.name"        = "ユーザーネーム"; // SettingsViewController, RegistrationPersonalViewController
+"tablecell.registration.email"       = "メールアドレス"; // SettingsViewController, RegistrationPersonalViewController
+"tablecell.registration.password"    = "パスワード"; // SettingsViewController, RegistrationPersonalViewController
+"tablecell.registration.passwordConfirm" = "パスワード(確認)"; // RegistrationPersonalViewController
+"tablecell.registration.password.placeholeder"    = "英数字8文字以上"; // RegistrationPersonalViewController
+"tablecell.registration.passwordConfirm.placeholeder" = "パスワード再入力"; // RegistrationPersonalViewController
+"tablecell.registration.birthdate"        = "生年月日"; // SettingsViewController, RegistrationPersonalViewController
+"tablecell.registration.gender"      = "性別"; // SettingsViewController, RegistrationPersonalViewController
+"tablecell.registration.prefId"  = "都道府県"; // SettingsViewController, RegistrationPersonalViewController
+"tablecell.registration.address"     = "住所"; // SettingsViewController, RegistrationPersonalViewController
+
+// registration screen
+"registration.header.caption.signup"      = "ようこそ！\n以下必須項目のご登録お願いします。"; // RegistrationPersonalViewController
+"registration.header.caption.signin"      = "ようこそ！\n"; // RegistrationPersonalViewController
+"registration.header.caption.signin.error.1"      = "メールアドレスとパスワードは必須です。"; // RegistrationPersonalViewController
+
+"registration.footer.caption"      = "「はじめる」をタップすることで利用規約と\nプライバシーポリシーに同意いただいたものとします。"; // RegistrationPersonalViewController
+"registration.footer.caption.termsofservice" = "利用規約";  // RegistrationPersonalViewController
+"registration.footer.caption.privacypolicy" = "プライバシーポリシー";  // RegistrationPersonalViewController
+"registration.button.start.signin"      = "%@ をはじめる"; // servicename, RegistrationPersonalViewController
+"registration.button.start.signup"      = "%@ をはじめる"; // servicename, RegistrationPersonalViewController
+
+"registration.signup.error.title" = "登録に失敗しました";
+"registration.signup.error.message" = "全項目に入力してください";
+"registration.alert.InputError" = "メールアドレスとパスワードは必須です。";
+"registration.alert.InputErrorMail" = "※メールアドレスを入力してください";
+"registration.alert.Email.validation" = "※メールアドレスの形式が間違っています";
+"registration.alert.Password.validation" = "※パスワードは英数字8文字以上で入力してください";
+"registration.alert.Password.validation2" = "※パスワードが一致しません";
+"registration.alert.Email.Exit" = "このメールアドレスはすでに登録されています";
+"registration.success" = "仮登録が完了しました";
+"registration.alert.success" = "ご入力いただいたメールアドレス宛に\nno-reply@verificationemail.comから認証コードを送信しました。\n認証コードを画面に入力して登録を完了してください";
+
+"signin.error.title" = "サインインに失敗しました";
+"signin.error.message" = "メールアドレスかパスワードが間違っています";
+"signin.check.verify.title" = "パスコード認証を完了させてください";
+"signin.check.verify.message" = "ご入力いただいたメールアドレス宛に\nno-reply@verificationemail.comから認証コードを送信しました。\n認証コードを画面に入力して登録を完了してください";
+
+"confirm.signup.success.title" = "登録が完了しました";
+"confirm.signup.success.message" = "サインインしてアッテヤをご利用ください";
+"confirm.signup.error.title" = "登録に失敗しました";
+"confirm.signup.error.nil" = "メールアドレス、認証コードを入力してください";
+"confirm.signup.error.nil2" = "新しいパスワードを入力してください";
+"confirm.signup.error.Email" = "メールアドレスが間違っています";
+"confirm.signup.error.code" = "認証コードが間違っています";
+
+"verify.code.validation" = "※認証コードは6桁の数字で入力してください";
+"confirm.header.caption" = "以下に登録されたメールアドレス、\nメールに記載されている認証コード6桁、\n新たに設定するパスワードを入力してください。";
+"change.success.title" = "変更が完了しました";
+"change.success.message" = "引き続きアッテヤをご利用ください";
+
+"change.erroe.title" = "変更に失敗しました";
+
+"send.email.error.title" = "送信に失敗しました";
+"send.email.error.message" = "メールアドレスを入力してください";
+"change.email.header" = "メールアドレスを変更します。\n新たなメールアドレスを入力してください";
+"change.password.header" = "パスワードを再設定します。\n登録したメールアドレスを入力してください";
+// Search menus
+// CONTRACT: search.cell.label以下、画像名と一致させること
+// CONTRACT event_fors, event_typesと文言を揃える
+"search.cell.label.bunkei" = "文系"; // SearchViewController
+"search.cell.label.rikei" = "理系"; // SearchViewController
+"search.cell.label.art" = "芸術向け"; // SearchViewController
+"search.cell.label.sport" = "体育会向け"; // SearchViewController
+"search.cell.label.konsin" = "懇親会"; // SearchViewController
+"search.cell.label.benkyo" = "勉強会"; // SearchViewController
+"search.cell.label.seminor" = "セミナー"; // SearchViewController
+"search.cell.label.zadankai" = "座談会"; // SearchViewController
+"search.cell.label.other" = "その他"; // SearchViewController
+
+// Setting Menu
+"settings.SettingHeaderCell.caption.title" = "自己紹介を登録しよう！"; // SettingHeaderCell
+//"settings.SettingHeaderCell.caption.sub" = "自己紹介を登録して\n企業から招待状を受け取ろう！"; // 18 SettingHeaderCell
+"settings.SettingHeaderCell.caption.sub" = "";
+
+"settings.SettingAccountEditorCell.title" = "アカウント情報"; // SettingAccountEditorCell
+"settings.SettingBasicInfoEditorCell.title" = "基本情報"; // SettingBasicInfoEditorCell
+// CONTRACT: 第３位はSettingsViewController.SettingCellOrder変数名に従う
+"settings.SettingLiteralEditorCell.intro.title" = "自己紹介"; // SettingLiteralEditorCell
+"settings.SettingLiteralEditorCell.skill.title" = "特技"; // SettingLiteralEditorCell
+
+"settings.ImageCaptureEditor.icon.select.title" = "素材選択"; // SettingsViewController
+"settings.ImageCaptureEditor.icon.select.cam" = "カメラで撮影"; // SettingsViewController
+"settings.ImageCaptureEditor.icon.select.pickstill" = "写真を選択"; // SettingsViewController, ImageCaptureEditorViewController
+
+"settings.ImageCaptureEditor.selector.subcontrol.1.title" = "再選択"; // ImageCaptureEditorViewController
+"settings.ImageCaptureEditor.still.subcontrol.1.title" = "撮り直す"; // ImageCaptureEditorViewController
+
+// placeholders
+"settings.SettingEditor.name.placeholder" = "ユーザーネーム"; // BasicInfoEditorViewController
+"settings.SettingEditor.residence.placeholder" = "居住地"; // BasicInfoEditorViewController
+"settings.SettingEditor.university.placeholder" = "大学名"; // BasicInfoEditorViewController
+"settings.SettingEditor.grouping.title" = "系統"; // BasicInfoEditorViewController
+"settings.SettingEditor.interests.title" = "興味"; // BasicInfoEditorViewController
+"settings.SettingEditor.born.title" = "誕生日"; // BasicInfoEditorViewController
+
+"settings.SettingEditor.notset.label" = "未設定"; // BasicInfoEditorViewController
+
+"settings.AccountEditor.mailcaution" = "※ 各種メッセージ通知にも使用するので、常時確認できる\nメールアドレスをご登録ください。"; // AccountEditorViewController
+
+// EventInfoViewController
+"eventinfo.companyinfo.L0" = "事業概要";
+"eventinfo.companyinfo.L1" = "所在地";
+"eventinfo.companyinfo.L2" = "設立";
+"eventinfo.companyinfo.L3" = "従業員数";
+"eventinfo.companyinfo.L4" = "上場";
+
+// InvitationViewController
+"invitationViewController.decline.title" = "辞退する";
+
+// ToJoinViewController
+"tojoinviewcontroller.cell.waittojoin" = "承認待ち";
+"tojoinviewcontroller.cell.joined" = "承認済み";
+
+// ConfirmEvent
+"JoinAnEvent.maintitle" = "イベント応募確認";
+"JoinAnEvent.caption" = "こちらのイベントに応募します。よろしいですか？";
+"JoinAnEvent.success.title" = "イベントに応募しました。\n承認されるまでお待ちください。";  //申し込み成功時
+"JoinAnEvent.successed.title" = "このイベントは既に応募済みです。";  //同じイベントに複数回申し込み時
+"JoinAnEvent.failure.title" = "このイベントは応募できませんでした。";
+"JoinAnInvitedEvent.maintitle" = "イベント承認確認";
+"JoinAnInvitedEvent.caption" = "こちらのイベントを承認します。よろしいですか？";
+"JoinAnInvitedEvent.success.title" = "イベントを承認しました。\n当日までお待ちください。";  //承認成功時
+"JoinAnInvitedEvent.successed.title" = "このイベントは既に承認しました。";  //同じイベントを承認時
+"JoinAnInvitedEvent.failure.title" = "このイベントは承認できませんでした。";
+"JoinAnEvent.success.caption.success" = "参加の可否については、\n\"参加予定\"より確認できます。";
+"JoinAnEvent.success.caption.processingError" = "このイベントは既に応募済みです。\n承認結果が出るまでしばらくお待ちください";
+"JoinAnInvitedEvent.success.caption.processingError" = "このイベントは既に承認済みです。\n当日までしばらくお待ちください";
+"JoinAnInvitedEvent.success.caption.processingError" = "このイベントは既に承認済みです。";
+"JoinAnEvent.failure.studentToCompany.alert.title" = "承認エラー";
+"JoinAnEvent.failure.studentToCompany.alert.msg" = "企業への承認に問題が発生しました。";
+"JoinNotAnEvent" = "この時間はすでに別のイベントに応募済みです";
+"JoinNotAnEventError" = "エラーにより、このイベントに申し込めませんでした。";
+
+// forgot password ForgotPassworViewController, CodeVerificationViewController
+"forgotpassword.captiion1" = "登録されているメールアドレスにパスワードの\n再設定メールを送信します";
+"forgotpassword.button.title" = "再設定メールの送信";
+"forgotpassword.alert.title" = "パスワード変更";
+"forgotpassword.alert.message" = "ご入力いただいたメールアドレス宛に\nno-reply@verificationemail.comから認証コードを送信しました。\n認証コードと新しいパスワードを画面に入力してパスワード変更を完了してください";
+"forgotpassword.alert.resetpassword.success" = "パスワードを再設定しました。\n新しいパスワードでログインしてください。";
+"forgotpassword.error.1.title" = "パスワード変更エラー";
+"forgotpassword.error.1.message" = "新規パスワード確定中にエラーが発生しました";
+
+// イベント参加ボタン 時刻別状態
+"eventsubmit.button.label.open" = "応募する"; // イベント募集期間中
+"eventsubmit.button.label.close" = "参加QRコードはこちら"; // QRコード表示
+"eventsubmit.button.label.submit" = "イベント招待を承認"; // 招待されているイベント
+
+// イベント参加ダイアログ
+"qrCodeDialog.button.message" = "当日参加のQRコードはこちら"; // eventInfo イベント開催時
+"qrCodeDialog.title" = "参加QRコード";
+"qrCodeDialog.button.message" = "イベント%d分前になると\nここにQRコードが表示されます。\n\nQRコードが表示されたら\n企業側のスタッフに提示して\n登録処理を完了してください。";
+"qrCodeDialog.button.message.passed" = "ポイント交換は終了いたしました";
+"qrCodeDialog.joinDialog.updating" = "あと %d:%02d で更新";
+"qrCodeDialog.joinDialog.success_message" = "参加完了！\n%@ APを獲得しました。";
+"qrCodeDialog.error.10" = "QRコードエラー";
+"qrCodeDialog.error.20" = "タイムアウトエラー";
+"qrCodeDialog.error.30" = "多重受け取りエラー";
+"qrCodeDialog.error.100" = "エラー";
+"qrCodeDialog.error.-1" = "ポイント付与エラー";
+"qrCodeDialog.error.-1.message" = "イベントの生合成が確認できません。\nこのポイントは付与されません。";
+// パスワードチェック、email変更 エラー一覧
+"accountEditor.error.0" = "新規パスワードが旧パスワードと一致しています\n一文字以上変更してください"; // AccountEditViewController
+"accountEditor.error.1" = "新規パスワードが入力されていません"; // AccountEditViewController
+"accountEditor.error.2" = "新規パスワード確認が一致していません"; // AccountEditViewController
+"accountEditor.error.3" = "現在のパスワードが正しく入力されていません"; // AccountEditViewController
+"accountEditor.success" = "新しいパスワードが設定されました"; // AccountEditViewController
+
+"registration.error.0" = "NOP -- 新規パスワードが旧パスワードと一致しています\n一文字以上変更してください"; // AccountEditViewController
+"registration.error.1" = "パスワードが入力されていません"; // AccountEditViewController
+"registration.error.2" = "パスワード確認が一致していません"; // AccountEditViewController
+
+"event.error.title" = "イベントエラー";
+"event.error.message.0" = "このイベントに問題が見つかったため詳細表示できません";
+
+"admin sub id" = "e229e12b-e46d-4d47-9320-a05c0b03de7e"

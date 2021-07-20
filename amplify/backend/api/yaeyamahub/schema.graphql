@@ -1,0 +1,19 @@
+type Message @model {
+  id: ID!
+  username: String!
+  content: String!
+  created: String!
+  imageBool: Boolean!
+  imageIndex: Int!
+  imageURL: String!
+  opponentId: ID!
+  opponentName: String!
+}
+
+type Timeline @model {
+  id: ID!
+  description: String!
+  created: String!
+  imageBool: Boolean!
+  imageURL: String!
+}

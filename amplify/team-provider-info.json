@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-yaeyamahub-dev-103444-authRole",
+      "UnauthRoleArn": "arn:aws:iam::533271680154:role/amplify-yaeyamahub-dev-103444-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::533271680154:role/amplify-yaeyamahub-dev-103444-authRole",
+      "Region": "ap-northeast-1",
+      "DeploymentBucketName": "amplify-yaeyamahub-dev-103444-deployment",
+      "UnauthRoleName": "amplify-yaeyamahub-dev-103444-unauthRole",
+      "StackName": "amplify-yaeyamahub-dev-103444",
+      "StackId": "arn:aws:cloudformation:ap-northeast-1:533271680154:stack/amplify-yaeyamahub-dev-103444/09597380-ce43-11eb-9c92-0a7e66613e63",
+      "AmplifyAppId": "d1uljwnv124cxf"
+    },
+    "categories": {
+      "auth": {
+        "yaeyamahubfce99736": {}
+      }
+    }
+  }
+}
